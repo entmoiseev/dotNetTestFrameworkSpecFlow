@@ -8,17 +8,17 @@ namespace BookLibraryTestProject.Service.Implementation
     public class ServiceCrudFactory
     {
 
-        public  static AbstractServiceImplementation GetFactory(string product, ApplicationContext applicationContext)
+        public static AbstractServiceImplementation GetFactory(string product, ApplicationContext applicationContext)
         {
-          
+
             AbstractServiceImplementation abstractServiceImplementation = null;
-            switch (product) 
+            switch (product)
             {
                 case "book":
                     abstractServiceImplementation = new BookCrudServiceImplementation(applicationContext);
                     break;
                 case "journal":
-                    abstractServiceImplementation =  new JournalCrudServiceImplementation(applicationContext);
+                    abstractServiceImplementation = new JournalCrudServiceImplementation(applicationContext);
                     break;
 
             }

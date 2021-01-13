@@ -7,16 +7,16 @@ using BookLibraryTestProject.Models;
 
 namespace Library.Config
 {
-    public  class ApplicationContext : DbContext
+    public class ApplicationContext : DbContext
     {
 
         public DbSet<Book> Books { get; set; }
         public DbSet<Journal> Journals { get; set; }
 
-        public ApplicationContext() 
+        public ApplicationContext()
         {
             Database.EnsureCreated();
-   
+
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

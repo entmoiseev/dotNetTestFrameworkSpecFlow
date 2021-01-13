@@ -74,7 +74,7 @@ namespace BookLibraryTestProject.Steps
         public void LastCreatedProductWasDeleted(string type)
         {
             Product product = this.ScenarioContext.Get<Product>(type);
-            Product expectedProduct =  this.libraryActions.GetProductById(type, product.Id);
+            Product expectedProduct = this.libraryActions.GetProductById(type, product.Id);
             this.libraryActions.ValidateProductIsDeleted(expectedProduct);
 
         }

@@ -1,15 +1,12 @@
-﻿using BookLibraryTestProject.Config;
-using BookLibraryTestProject.Models;
+﻿using BookLibraryTestProject.Models;
 using BookLibraryTestProject.Service.Implementation;
+
 using Library;
 using Library.Config;
-using Library.Service;
-using System;
-using System.Collections.Generic;
-using System.Text;
+
 using TechTalk.SpecFlow;
 using TechTalk.SpecFlow.Assist;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+
 using FluentAssertions;
 
 namespace BookLibraryTestProject.Actions
@@ -63,7 +60,7 @@ namespace BookLibraryTestProject.Actions
             Product expectedProduct = this.ConvertDataTableToProduct(type, table);
             if (type == "book")
             {
-               ((Book)product).Should().BeEquivalentTo((Book)expectedProduct, options => options.Excluding(x => x.Id));
+                ((Book)product).Should().BeEquivalentTo((Book)expectedProduct, options => options.Excluding(x => x.Id));
             }
             else
             {

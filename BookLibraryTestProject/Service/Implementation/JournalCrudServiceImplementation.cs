@@ -6,11 +6,11 @@ using Library.Service;
 
 namespace BookLibraryTestProject.Service.Implementation
 {
-    public  class JournalCrudServiceImplementation : AbstractServiceImplementation
+    public class JournalCrudServiceImplementation : AbstractServiceImplementation
     {
         private readonly ApplicationContext ApplicationContext;
 
-        public JournalCrudServiceImplementation(ApplicationContext applicationContext) 
+        public JournalCrudServiceImplementation(ApplicationContext applicationContext)
         {
             this.ApplicationContext = applicationContext;
         }

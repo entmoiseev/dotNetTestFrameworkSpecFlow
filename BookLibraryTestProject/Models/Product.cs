@@ -8,11 +8,8 @@ namespace BookLibraryTestProject.Models
 {
     public abstract class Product
     {
-        
+
         public int Id { get; set; }
-
-     
-
 
     }
 }
