@@ -1,0 +1,274 @@
+﻿2021-01-13T13:46:03.6086246+02:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-01-13T13:46:03.6087544+02:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.5.8 in Framework netcore31 in x64 mode execution started
+2021-01-13T13:46:03.6087574+02:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-01-13T13:46:03.6105608+02:00;VSTestExecutionThread;Info;Current UserName: 'tmoiseev', MachineName: 'EN411309'
+2021-01-13T13:46:03.6341976+02:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\BookLibraryTestProject.dll
+2021-01-13T13:46:03.6345775+02:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\tmoiseev\source\repos\BookLibraryTestProject\TestResults" (default)
+2021-01-13T13:46:03.6347134+02:00;VSTestExecutionThread;Info;Profile: 
+2021-01-13T13:46:03.6652271+02:00;VSTestExecutionThread;Info;Log file path: C:\Users\tmoiseev\source\repos\BookLibraryTestProject\TestResults\Unnamed project__2021-01-13T134603.log
+2021-01-13T13:46:03.6690597+02:00;Thread#12;Info;Checking activation
+2021-01-13T13:46:03.7348071+02:00;Thread#12;Info;Activated.
+2021-01-13T13:46:03.7351018+02:00;Thread#12;Info;Activation check completed
+2021-01-13T13:46:03.7352151+02:00;Thread#12;Info;Starting test run
+2021-01-13T13:46:03.8050452+02:00;Thread#12;Info;Discovering target: Default
+2021-01-13T13:46:03.8054452+02:00;Thread#12;Info;Discovering tests from assembly: C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\BookLibraryTestProject.dll
+2021-01-13T13:46:03.8708811+02:00;Thread#12;Info;Discovered tests from assembly: C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\BookLibraryTestProject.dll
+2021-01-13T13:46:03.8717843+02:00:Test Suite Dump
+2021-01-13T13:46:03.8729119+02:00:#0: Unnamed project/ - 
+2021-01-13T13:46:03.8729244+02:00:#1: Default - 
+2021-01-13T13:46:03.8729262+02:00:#2: BookLibraryTestProject - 
+2021-01-13T13:46:03.8729275+02:00:#3: Library - 
+2021-01-13T13:46:03.8737257+02:00:#4: Create a book - TestAssembly:BookLibraryTestProject/Feature:Library/Scenario:Create+a+book
+2021-01-13T13:46:03.8737490+02:00:#5: Create a journal - TestAssembly:BookLibraryTestProject/Feature:Library/Scenario:Create+a+journal
+2021-01-13T13:46:03.8737818+02:00:End: Test Suite Dump
+2021-01-13T13:46:03.8853883+02:00:Thread#0:Scheduler: get next test for thread 0
+2021-01-13T13:46:03.8867527+02:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2021-01-13T13:46:03.8867979+02:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-01-13T13:46:03.8890010+02:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-01-13T13:46:03.8890077+02:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-01-13T13:46:03.8890093+02:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2021-01-13T13:46:03.8890111+02:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-01-13T13:46:03.8895091+02:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-01-13T13:46:03.8904509+02:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-01-13T13:46:03.8922701+02:00:Thread #0: creating new test thread executor for BookLibraryTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-01-13T13:46:03.8940838+02:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-01-13T13:46:03.8942253+02:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-01-13T13:46:03.9148311+02:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-01-13T13:46:03.9163652+02:00:starting Out Of Process Executor
+2021-01-13T13:46:03.9185900+02:00:Assembly resolving Microsoft.VisualStudio.Validation, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2021-01-13T13:46:03.9206063+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' from .deps.json file
+2021-01-13T13:46:03.9206196+02:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' from .deps.json
+2021-01-13T13:46:03.9214285+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1'
+2021-01-13T13:46:03.9216797+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll'
+2021-01-13T13:46:03.9217480+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Validation.exe'
+2021-01-13T13:46:03.9217691+02:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1'
+2021-01-13T13:46:03.9219146+02:00:TargetFramework: .NETCoreApp,Version=v3.1
+2021-01-13T13:46:03.9222864+02:00:Tfm: netcoreapp3.1
+2021-01-13T13:46:03.9222939+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-01-13T13:46:03.9222952+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll'
+2021-01-13T13:46:03.9223534+02:00:[AssemblyCache] Found file 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll' for assembly 'Microsoft.VisualStudio.Validation'
+2021-01-13T13:46:03.9232889+02:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.Validation' to C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll
+2021-01-13T13:46:03.9243067+02:00:Starting callback TCP Rpc server
+2021-01-13T13:46:03.9370832+02:00:Asynchronously starting background TCP Rpc Server on port 32768
+2021-01-13T13:46:03.9371526+02:00:Started callback TCP Rpc server on port 32768
+2021-01-13T13:46:03.9371550+02:00:Starting logger TCP Rpc server
+2021-01-13T13:46:03.9388113+02:00:Asynchronously starting background TCP Rpc Server on port 32769
+2021-01-13T13:46:03.9388279+02:00:Started logger TCP Rpc server on port 32769
+2021-01-13T13:46:03.9995151+02:00:Executing test executor at 'dotnet' 'exec "C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\TechTalk.SpecRun.Framework.Executor.anycpu.netcoreapp3_1.dll" --remoteRunnerPid 29168 --uniqueId "2021-01-13T134603" --outputFolder "C:\Users\tmoiseev\source\repos\BookLibraryTestProject\TestResults" --callbackPort 32768 --loggerPort 32769' in 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1'
+2021-01-13T13:46:07.0987130+02:00:Executor with PID 24756 has been started successfully.
+2021-01-13T13:46:07.1076327+02:00:Out of Process Executor 24756 started
+2021-01-13T13:46:07.1076643+02:00:Waiting for endpoint
+2021-01-13T13:46:07.9848925+02:00:Assembly resolving Microsoft.VisualStudio.Threading, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2021-01-13T13:46:07.9849699+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' from .deps.json file
+2021-01-13T13:46:07.9849748+02:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' from .deps.json
+2021-01-13T13:46:07.9849875+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1'
+2021-01-13T13:46:07.9849963+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll'
+2021-01-13T13:46:07.9850816+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Threading.exe'
+2021-01-13T13:46:07.9851174+02:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1'
+2021-01-13T13:46:07.9851306+02:00:TargetFramework: .NETCoreApp,Version=v3.1
+2021-01-13T13:46:07.9853307+02:00:Tfm: netcoreapp3.1
+2021-01-13T13:46:07.9853491+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-01-13T13:46:07.9853535+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll'
+2021-01-13T13:46:07.9854862+02:00:[AssemblyCache] Found file 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll' for assembly 'Microsoft.VisualStudio.Threading'
+2021-01-13T13:46:07.9864175+02:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.Threading' to C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll
+2021-01-13T13:46:08.1655174+02:00:Remote executor port received: 32770
+2021-01-13T13:46:08.1657463+02:00:Creating executor TCP client on port 32770
+2021-01-13T13:46:08.1661146+02:00:Created executor TCP client on port 32770
+2021-01-13T13:46:08.1661199+02:00:Connecting to remote executor TCP server
+2021-01-13T13:46:08.1670606+02:00:Connected remote executor TCP server
+2021-01-13T13:46:08.1672738+02:00:trying to connect to Out of Process Executor the 1 attempt
+2021-01-13T13:46:08.1672825+02:00:Connection to Out of Process Executor established in the 1 attempt
+2021-01-13T13:46:08.2727246+02:00:2021-01-13T13:46:08.2717334+02:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\BookLibraryTestProject.dll on test thread #0
+2021-01-13T13:46:08.2769740+02:00:Endpoint 24756 started
+2021-01-13T13:46:08.2903514+02:00:2021-01-13T13:46:08.2899474+02:00:OutOfProcessTestAssemblyExecutor: running tests...
+2021-01-13T13:46:08.3781065+02:00:2021-01-13T13:46:08.3776405+02:00:Assembly resolving TechTalk.SpecFlow, Version=3.5.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2021-01-13T13:46:08.3805918+02:00:2021-01-13T13:46:08.3803002+02:00:[AssemblyCache] Trying to resolve 'TechTalk.SpecFlow' from .deps.json file
+2021-01-13T13:46:08.3828159+02:00:2021-01-13T13:46:08.3825734+02:00:[AssemblyCache] Resolved 'TechTalk.SpecFlow' to 'C:\Users\tmoiseev\.nuget\packages\specflow\3.5.5\lib\netstandard2.0\TechTalk.SpecFlow.dll'
+2021-01-13T13:46:08.4652800+02:00:2021-01-13T13:46:08.4648764+02:00:Thread#0:T:-> Loading plugin C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\LivingDoc.SpecFlowPlugin.dll
+2021-01-13T13:46:08.4673452+02:00:2021-01-13T13:46:08.4669333+02:00:Assembly resolving TechTalk.SpecFlow, Version=3.4.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2021-01-13T13:46:08.4687121+02:00:2021-01-13T13:46:08.4682452+02:00:Assembly resolving LivingDoc.Dtos, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+2021-01-13T13:46:08.4694210+02:00:2021-01-13T13:46:08.4690031+02:00:[AssemblyCache] Trying to resolve 'LivingDoc.Dtos' from .deps.json file
+2021-01-13T13:46:08.4701185+02:00:2021-01-13T13:46:08.4698483+02:00:[AssemblyCache] Resolved 'LivingDoc.Dtos' to 'C:\Users\tmoiseev\.nuget\packages\specflow.plus.livingdocplugin\3.5.186\lib\netstandard2.0\LivingDoc.Dtos.dll'
+2021-01-13T13:46:08.4733121+02:00:2021-01-13T13:46:08.4729625+02:00:Thread#0:T:-> Loading plugin C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-01-13T13:46:08.4752959+02:00:2021-01-13T13:46:08.4745863+02:00:Assembly resolving TechTalk.SpecFlow, Version=3.5.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2021-01-13T13:46:08.4793581+02:00:2021-01-13T13:46:08.4787008+02:00:Thread#0:T:-> Using default config
+2021-01-13T13:46:08.4881267+02:00:2021-01-13T13:46:08.4872947+02:00:Assembly resolving Cucumber.Messages, Version=6.0.1.0, Culture=neutral, PublicKeyToken=b10c5988214f940c
+2021-01-13T13:46:08.4892789+02:00:2021-01-13T13:46:08.4887031+02:00:[AssemblyCache] Trying to resolve 'Cucumber.Messages' from .deps.json file
+2021-01-13T13:46:08.4903903+02:00:2021-01-13T13:46:08.4898756+02:00:[AssemblyCache] Resolved 'Cucumber.Messages' to 'C:\Users\tmoiseev\.nuget\packages\cucumber.messages\6.0.1\lib\netstandard2.0\Cucumber.Messages.dll'
+2021-01-13T13:46:08.4927027+02:00:2021-01-13T13:46:08.4920388+02:00:Assembly resolving Google.Protobuf, Version=3.7.0.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604
+2021-01-13T13:46:08.4936418+02:00:2021-01-13T13:46:08.4931730+02:00:[AssemblyCache] Trying to resolve 'Google.Protobuf' from .deps.json file
+2021-01-13T13:46:08.4947596+02:00:2021-01-13T13:46:08.4942791+02:00:[AssemblyCache] Resolved 'Google.Protobuf' to 'C:\Users\tmoiseev\.nuget\packages\google.protobuf\3.7.0\lib\netstandard1.0\Google.Protobuf.dll'
+2021-01-13T13:46:08.5049825+02:00:2021-01-13T13:46:08.5042893+02:00:Assembly resolving Microsoft.EntityFrameworkCore, Version=5.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-13T13:46:08.5058489+02:00:2021-01-13T13:46:08.5054363+02:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore' from .deps.json file
+2021-01-13T13:46:08.5068547+02:00:2021-01-13T13:46:08.5063583+02:00:[AssemblyCache] Resolved 'Microsoft.EntityFrameworkCore' to 'C:\Users\tmoiseev\.nuget\packages\microsoft.entityframeworkcore\5.0.1\lib\netstandard2.1\Microsoft.EntityFrameworkCore.dll'
+2021-01-13T13:46:08.5105325+02:00:2021-01-13T13:46:08.5099515+02:00:Assembly resolving Microsoft.VisualStudio.TestPlatform.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2021-01-13T13:46:08.5113219+02:00:2021-01-13T13:46:08.5109019+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.ObjectModel' from .deps.json file
+2021-01-13T13:46:08.5124310+02:00:2021-01-13T13:46:08.5119215+02:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.TestPlatform.ObjectModel' to 'C:\Users\tmoiseev\.nuget\packages\microsoft.testplatform.objectmodel\16.5.0\lib\netstandard2.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll'
+2021-01-13T13:46:08.5351866+02:00:2021-01-13T13:46:08.5346894+02:00:Assembly resolving Utf8Json, Version=1.3.7.0, Culture=neutral, PublicKeyToken=8a73d3ba7e392e27
+2021-01-13T13:46:08.5358528+02:00:2021-01-13T13:46:08.5355347+02:00:[AssemblyCache] Trying to resolve 'Utf8Json' from .deps.json file
+2021-01-13T13:46:08.5364842+02:00:2021-01-13T13:46:08.5362178+02:00:[AssemblyCache] Resolved 'Utf8Json' to 'C:\Users\tmoiseev\.nuget\packages\utf8json\1.3.7\lib\netstandard2.0\Utf8Json.dll'
+2021-01-13T13:46:08.6947694+02:00:Thread#0: Test #4/0 is started on thread #0
+2021-01-13T13:46:08.7329071+02:00:2021-01-13T13:46:08.7320485+02:00:Thread#0:B:Given add new book to library
+2021-01-13T13:46:08.7337895+02:00:2021-01-13T13:46:08.7333363+02:00:Thread#0:B:  --- table step argument ---
+2021-01-13T13:46:08.7345737+02:00:2021-01-13T13:46:08.7341857+02:00:Thread#0:B:  | Author | BookName |
+2021-01-13T13:46:08.7353258+02:00:2021-01-13T13:46:08.7349032+02:00:Thread#0:B:  | Tim    | test     |
+2021-01-13T13:46:08.7608548+02:00:2021-01-13T13:46:08.7600306+02:00:Assembly resolving Gherkin, Version=6.0.0.0, Culture=neutral, PublicKeyToken=86496cfa5b4a5851
+2021-01-13T13:46:08.7617404+02:00:2021-01-13T13:46:08.7612555+02:00:[AssemblyCache] Trying to resolve 'Gherkin' from .deps.json file
+2021-01-13T13:46:08.7626763+02:00:2021-01-13T13:46:08.7623329+02:00:[AssemblyCache] Resolved 'Gherkin' to 'C:\Users\tmoiseev\.nuget\packages\gherkin\6.0.0\lib\netstandard2.0\Gherkin.dll'
+2021-01-13T13:46:08.8028194+02:00:2021-01-13T13:46:08.8017549+02:00:Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+2021-01-13T13:46:08.8034409+02:00:2021-01-13T13:46:08.8031613+02:00:Thread#0:T:        [Given(@"add new book to library")]
+2021-01-13T13:46:08.8038317+02:00:2021-01-13T13:46:08.8036266+02:00:Thread#0:T:        public void GivenAddNewBookToLibrary(Table table)
+2021-01-13T13:46:08.8042024+02:00:2021-01-13T13:46:08.8039892+02:00:Thread#0:T:        {
+2021-01-13T13:46:08.8045771+02:00:2021-01-13T13:46:08.8043839+02:00:Thread#0:T:            _scenarioContext.Pending();
+2021-01-13T13:46:08.8048992+02:00:2021-01-13T13:46:08.8047233+02:00:Thread#0:T:        }
+2021-01-13T13:46:08.8066240+02:00:2021-01-13T13:46:08.8064241+02:00:Thread#0:B:Then verify that book was added
+2021-01-13T13:46:08.8089466+02:00:2021-01-13T13:46:08.8087792+02:00:Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+2021-01-13T13:46:08.8092784+02:00:2021-01-13T13:46:08.8091241+02:00:Thread#0:T:        [Then(@"verify that book was added")]
+2021-01-13T13:46:08.8095761+02:00:2021-01-13T13:46:08.8094166+02:00:Thread#0:T:        public void ThenVerifyThatBookWasAdded()
+2021-01-13T13:46:08.8098729+02:00:2021-01-13T13:46:08.8097201+02:00:Thread#0:T:        {
+2021-01-13T13:46:08.8101376+02:00:2021-01-13T13:46:08.8099947+02:00:Thread#0:T:            _scenarioContext.Pending();
+2021-01-13T13:46:08.8104410+02:00:2021-01-13T13:46:08.8102699+02:00:Thread#0:T:        }
+2021-01-13T13:46:08.8522313+02:00:2021-01-13T13:46:08.8517308+02:00:Thread#0:T:Pending: No matching step definition found for one or more steps.
+2021-01-13T13:46:08.8529390+02:00:2021-01-13T13:46:08.8526027+02:00:Thread#0:T:using System;
+2021-01-13T13:46:08.8535051+02:00:2021-01-13T13:46:08.8532240+02:00:Thread#0:T:using TechTalk.SpecFlow;
+2021-01-13T13:46:08.8539260+02:00:2021-01-13T13:46:08.8536873+02:00:Thread#0:T:namespace MyNamespace
+2021-01-13T13:46:08.8543967+02:00:2021-01-13T13:46:08.8541598+02:00:Thread#0:T:{
+2021-01-13T13:46:08.8547582+02:00:2021-01-13T13:46:08.8545862+02:00:Thread#0:T:    [Binding]
+2021-01-13T13:46:08.8551260+02:00:2021-01-13T13:46:08.8549614+02:00:Thread#0:T:    public class StepDefinitions
+2021-01-13T13:46:08.8555027+02:00:2021-01-13T13:46:08.8553174+02:00:Thread#0:T:    {
+2021-01-13T13:46:08.8557976+02:00:2021-01-13T13:46:08.8556387+02:00:Thread#0:T:        private readonly ScenarioContext _scenarioContext;
+2021-01-13T13:46:08.8560828+02:00:2021-01-13T13:46:08.8559268+02:00:Thread#0:T:        public StepDefinitions(ScenarioContext scenarioContext)
+2021-01-13T13:46:08.8564016+02:00:2021-01-13T13:46:08.8562275+02:00:Thread#0:T:        {
+2021-01-13T13:46:08.8567214+02:00:2021-01-13T13:46:08.8565738+02:00:Thread#0:T:            _scenarioContext = scenarioContext;
+2021-01-13T13:46:08.8570777+02:00:2021-01-13T13:46:08.8569173+02:00:Thread#0:T:        }
+2021-01-13T13:46:08.8574182+02:00:2021-01-13T13:46:08.8572511+02:00:Thread#0:T:        [Given(@"add new book to library")]
+2021-01-13T13:46:08.8577584+02:00:2021-01-13T13:46:08.8576182+02:00:Thread#0:T:        public void GivenAddNewBookToLibrary(Table table)
+2021-01-13T13:46:08.8580474+02:00:2021-01-13T13:46:08.8579076+02:00:Thread#0:T:        {
+2021-01-13T13:46:08.8583403+02:00:2021-01-13T13:46:08.8582046+02:00:Thread#0:T:            _scenarioContext.Pending();
+2021-01-13T13:46:08.8586661+02:00:2021-01-13T13:46:08.8585069+02:00:Thread#0:T:        }
+2021-01-13T13:46:08.8589633+02:00:2021-01-13T13:46:08.8588194+02:00:Thread#0:T:        
+2021-01-13T13:46:08.8592410+02:00:2021-01-13T13:46:08.8590953+02:00:Thread#0:T:        [Then(@"verify that book was added")]
+2021-01-13T13:46:08.8594971+02:00:2021-01-13T13:46:08.8593616+02:00:Thread#0:T:        public void ThenVerifyThatBookWasAdded()
+2021-01-13T13:46:08.8597567+02:00:2021-01-13T13:46:08.8596221+02:00:Thread#0:T:        {
+2021-01-13T13:46:08.8600102+02:00:2021-01-13T13:46:08.8598765+02:00:Thread#0:T:            _scenarioContext.Pending();
+2021-01-13T13:46:08.8602803+02:00:2021-01-13T13:46:08.8601388+02:00:Thread#0:T:        }
+2021-01-13T13:46:08.8605371+02:00:2021-01-13T13:46:08.8604024+02:00:Thread#0:T:    }
+2021-01-13T13:46:08.8608026+02:00:2021-01-13T13:46:08.8606663+02:00:Thread#0:T:}
+2021-01-13T13:46:08.8658606+02:00:Thread#0:Scheduler: get next test for thread 0
+2021-01-13T13:46:08.8658982+02:00:Thread#:Scheduler: testitem #5 from normal test queue 
+2021-01-13T13:46:08.8659016+02:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2021-01-13T13:46:08.8659341+02:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2021-01-13T13:46:08.8659386+02:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2021-01-13T13:46:08.8659400+02:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2021-01-13T13:46:08.8659412+02:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2021-01-13T13:46:08.8659593+02:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2021-01-13T13:46:08.8659829+02:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-01-13T13:46:08.9001047+02:00:Thread#0: Test #4/0 is finished on thread #0 as Pending within 0.2043611 seconds
+2021-01-13T13:46:08.9027205+02:00:Thread#0: Test #5/0 is started on thread #0
+2021-01-13T13:46:08.9043735+02:00:2021-01-13T13:46:08.9040021+02:00:Thread#0:B:Given add new journal to library
+2021-01-13T13:46:08.9048645+02:00:2021-01-13T13:46:08.9046497+02:00:Thread#0:B:  --- table step argument ---
+2021-01-13T13:46:08.9052492+02:00:2021-01-13T13:46:08.9050329+02:00:Thread#0:B:  | Author | JournalName |
+2021-01-13T13:46:08.9056405+02:00:2021-01-13T13:46:08.9054398+02:00:Thread#0:B:  | Tim    | test1       |
+2021-01-13T13:46:08.9083135+02:00:2021-01-13T13:46:08.9078910+02:00:Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+2021-01-13T13:46:08.9089013+02:00:2021-01-13T13:46:08.9086262+02:00:Thread#0:T:        [Given(@"add new journal to library")]
+2021-01-13T13:46:08.9094304+02:00:2021-01-13T13:46:08.9091123+02:00:Thread#0:T:        public void GivenAddNewJournalToLibrary(Table table)
+2021-01-13T13:46:08.9099072+02:00:2021-01-13T13:46:08.9096837+02:00:Thread#0:T:        {
+2021-01-13T13:46:08.9103131+02:00:2021-01-13T13:46:08.9100690+02:00:Thread#0:T:            _scenarioContext.Pending();
+2021-01-13T13:46:08.9106798+02:00:2021-01-13T13:46:08.9104929+02:00:Thread#0:T:        }
+2021-01-13T13:46:08.9111322+02:00:2021-01-13T13:46:08.9109515+02:00:Thread#0:B:Then verify that journal was added
+2021-01-13T13:46:08.9132632+02:00:2021-01-13T13:46:08.9131051+02:00:Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+2021-01-13T13:46:08.9135686+02:00:2021-01-13T13:46:08.9134267+02:00:Thread#0:T:        [Then(@"verify that journal was added")]
+2021-01-13T13:46:08.9139028+02:00:2021-01-13T13:46:08.9137067+02:00:Thread#0:T:        public void ThenVerifyThatJournalWasAdded()
+2021-01-13T13:46:08.9142753+02:00:2021-01-13T13:46:08.9140748+02:00:Thread#0:T:        {
+2021-01-13T13:46:08.9146348+02:00:2021-01-13T13:46:08.9144325+02:00:Thread#0:T:            _scenarioContext.Pending();
+2021-01-13T13:46:08.9151551+02:00:2021-01-13T13:46:08.9148994+02:00:Thread#0:T:        }
+2021-01-13T13:46:08.9267042+02:00:2021-01-13T13:46:08.9263519+02:00:Thread#0:T:Pending: No matching step definition found for one or more steps.
+2021-01-13T13:46:08.9271313+02:00:2021-01-13T13:46:08.9269219+02:00:Thread#0:T:using System;
+2021-01-13T13:46:08.9275800+02:00:2021-01-13T13:46:08.9273234+02:00:Thread#0:T:using TechTalk.SpecFlow;
+2021-01-13T13:46:08.9279637+02:00:2021-01-13T13:46:08.9277396+02:00:Thread#0:T:namespace MyNamespace
+2021-01-13T13:46:08.9283011+02:00:2021-01-13T13:46:08.9281352+02:00:Thread#0:T:{
+2021-01-13T13:46:08.9286358+02:00:2021-01-13T13:46:08.9284478+02:00:Thread#0:T:    [Binding]
+2021-01-13T13:46:08.9290564+02:00:2021-01-13T13:46:08.9288368+02:00:Thread#0:T:    public class StepDefinitions
+2021-01-13T13:46:08.9294413+02:00:2021-01-13T13:46:08.9292712+02:00:Thread#0:T:    {
+2021-01-13T13:46:08.9297977+02:00:2021-01-13T13:46:08.9296319+02:00:Thread#0:T:        private readonly ScenarioContext _scenarioContext;
+2021-01-13T13:46:08.9301625+02:00:2021-01-13T13:46:08.9299993+02:00:Thread#0:T:        public StepDefinitions(ScenarioContext scenarioContext)
+2021-01-13T13:46:08.9305218+02:00:2021-01-13T13:46:08.9303658+02:00:Thread#0:T:        {
+2021-01-13T13:46:08.9308017+02:00:2021-01-13T13:46:08.9306477+02:00:Thread#0:T:            _scenarioContext = scenarioContext;
+2021-01-13T13:46:08.9311059+02:00:2021-01-13T13:46:08.9309547+02:00:Thread#0:T:        }
+2021-01-13T13:46:08.9314318+02:00:2021-01-13T13:46:08.9312713+02:00:Thread#0:T:        [Given(@"add new journal to library")]
+2021-01-13T13:46:08.9317461+02:00:2021-01-13T13:46:08.9315843+02:00:Thread#0:T:        public void GivenAddNewJournalToLibrary(Table table)
+2021-01-13T13:46:08.9320892+02:00:2021-01-13T13:46:08.9319362+02:00:Thread#0:T:        {
+2021-01-13T13:46:08.9324073+02:00:2021-01-13T13:46:08.9322508+02:00:Thread#0:T:            _scenarioContext.Pending();
+2021-01-13T13:46:08.9326965+02:00:2021-01-13T13:46:08.9325541+02:00:Thread#0:T:        }
+2021-01-13T13:46:08.9329749+02:00:2021-01-13T13:46:08.9328408+02:00:Thread#0:T:        
+2021-01-13T13:46:08.9332566+02:00:2021-01-13T13:46:08.9331226+02:00:Thread#0:T:        [Then(@"verify that journal was added")]
+2021-01-13T13:46:08.9335306+02:00:2021-01-13T13:46:08.9333983+02:00:Thread#0:T:        public void ThenVerifyThatJournalWasAdded()
+2021-01-13T13:46:08.9338403+02:00:2021-01-13T13:46:08.9336826+02:00:Thread#0:T:        {
+2021-01-13T13:46:08.9342015+02:00:2021-01-13T13:46:08.9340398+02:00:Thread#0:T:            _scenarioContext.Pending();
+2021-01-13T13:46:08.9347381+02:00:2021-01-13T13:46:08.9344114+02:00:Thread#0:T:        }
+2021-01-13T13:46:08.9351010+02:00:2021-01-13T13:46:08.9349062+02:00:Thread#0:T:    }
+2021-01-13T13:46:08.9354452+02:00:2021-01-13T13:46:08.9352786+02:00:Thread#0:T:}
+2021-01-13T13:46:08.9363103+02:00:Thread#0:Scheduler: get next test for thread 0
+2021-01-13T13:46:08.9363317+02:00:Thread#:Scheduler: at the end of normal test queue
+2021-01-13T13:46:08.9363339+02:00:Thread#0:Scheduler: enumerator for thread is at end
+2021-01-13T13:46:08.9363356+02:00:Thread#0:Scheduler: No more tests for thread
+2021-01-13T13:46:08.9384249+02:00:Thread#0: Test #5/0 is finished on thread #0 as Pending within 0.0356441 seconds
+2021-01-13T13:46:08.9436489+02:00:2021-01-13T13:46:08.9433637+02:00:Got Deinitialize Signal
+2021-01-13T13:46:08.9462573+02:00:RPC Client disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Stream has been disposed
+Exception:<none>
+2021-01-13T13:46:08.9469719+02:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2021-01-13T13:46:08.9481123+02:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2021-01-13T13:46:08.9490897+02:00:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.2.0, Culture=en-US, PublicKeyToken=b03f5f7f11d50a3a
+2021-01-13T13:46:08.9491089+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' from .deps.json file
+2021-01-13T13:46:08.9491159+02:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' from .deps.json
+2021-01-13T13:46:08.9491254+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1'
+2021-01-13T13:46:08.9491275+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\System.Diagnostics.Process.resources.dll'
+2021-01-13T13:46:08.9491520+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\System.Diagnostics.Process.resources.exe'
+2021-01-13T13:46:08.9491699+02:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1'
+2021-01-13T13:46:08.9491759+02:00:TargetFramework: .NETCoreApp,Version=v3.1
+2021-01-13T13:46:08.9492183+02:00:Tfm: netcoreapp3.1
+2021-01-13T13:46:08.9492227+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-01-13T13:46:08.9492238+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\System.Diagnostics.Process.resources.dll'
+2021-01-13T13:46:08.9492479+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\System.Diagnostics.Process.resources.exe'
+2021-01-13T13:46:08.9492818+02:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-01-13T13:46:08.9568448+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.10'
+2021-01-13T13:46:08.9568597+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.10\System.Diagnostics.Process.resources.dll'
+2021-01-13T13:46:08.9568961+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.10\System.Diagnostics.Process.resources.exe'
+2021-01-13T13:46:08.9569162+02:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.10'
+2021-01-13T13:46:08.9570108+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.10'
+2021-01-13T13:46:08.9570163+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.10\System.Diagnostics.Process.resources.dll'
+2021-01-13T13:46:08.9570406+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.10\System.Diagnostics.Process.resources.exe'
+2021-01-13T13:46:08.9570596+02:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.10'
+2021-01-13T13:46:08.9571545+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.10'
+2021-01-13T13:46:08.9571588+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.10\System.Diagnostics.Process.resources.dll'
+2021-01-13T13:46:08.9571857+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.10\System.Diagnostics.Process.resources.exe'
+2021-01-13T13:46:08.9572036+02:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.10'
+2021-01-13T13:46:08.9578057+02:00:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.2.0, Culture=en, PublicKeyToken=b03f5f7f11d50a3a
+2021-01-13T13:46:08.9639027+02:00:Thread#-1:Scheduler: get next test for thread -1
+2021-01-13T13:46:08.9639211+02:00:Thread#:Scheduler: at the end of normal test queue
+2021-01-13T13:46:08.9639245+02:00:Thread#-1:Scheduler: enumerator for thread is at end
+2021-01-13T13:46:08.9653898+02:00;Thread#12;Info;test run finished
+2021-01-13T13:46:08.9656724+02:00;Thread#12;Info;publishing test results
+2021-01-13T13:46:08.9660106+02:00;Thread#12;Info;Not publishing results.
+2021-01-13T13:46:08.9661769+02:00;Thread#12;Info;test results published
+2021-01-13T13:46:08.9663780+02:00;Thread#12;Info;generating reports
+2021-01-13T13:46:09.0427038+02:00;Thread#12;Info;Starting external report generation process
+2021-01-13T13:46:19.9364952+02:00;Thread#12;Info;Successfully generated reports.
+2021-01-13T13:46:19.9392970+02:00;Thread#12;Info;Successfully generated reports
+2021-01-13T13:46:19.9445773+02:00:Total: 2
+2021-01-13T13:46:19.9460802+02:00:Succeeded: 0
+2021-01-13T13:46:19.9463562+02:00:Ignored: 0
+2021-01-13T13:46:19.9465840+02:00:Pending: 2
+2021-01-13T13:46:19.9465900+02:00:Skipped: 0
+2021-01-13T13:46:19.9467822+02:00:Failed: 0
+2021-01-13T13:46:19.9525776+02:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2021-01-13T13:46:19.9528335+02:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\TestResults\Unnamed project__2021-01-13T134603.html'
+========== End of log file ==========

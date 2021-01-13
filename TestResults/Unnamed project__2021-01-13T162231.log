@@ -1,0 +1,412 @@
+﻿2021-01-13T16:22:31.2859082+02:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-01-13T16:22:31.2860842+02:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.5.8 in Framework netcore31 in x64 mode execution started
+2021-01-13T16:22:31.2860915+02:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-01-13T16:22:31.2885716+02:00;VSTestExecutionThread;Info;Current UserName: 'tmoiseev', MachineName: 'EN411309'
+2021-01-13T16:22:31.3217436+02:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\BookLibraryTestProject.dll
+2021-01-13T16:22:31.3220530+02:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\tmoiseev\source\repos\BookLibraryTestProject\TestResults" (default)
+2021-01-13T16:22:31.3222118+02:00;VSTestExecutionThread;Info;Profile: 
+2021-01-13T16:22:31.3683209+02:00;VSTestExecutionThread;Info;Log file path: C:\Users\tmoiseev\source\repos\BookLibraryTestProject\TestResults\Unnamed project__2021-01-13T162231.log
+2021-01-13T16:22:31.3736690+02:00;Thread#12;Info;Checking activation
+2021-01-13T16:22:31.4741171+02:00;Thread#12;Info;Activated.
+2021-01-13T16:22:31.4750674+02:00;Thread#12;Info;Activation check completed
+2021-01-13T16:22:31.4755004+02:00;Thread#12;Info;Starting test run
+2021-01-13T16:22:31.5718930+02:00;Thread#12;Info;Discovering target: Default
+2021-01-13T16:22:31.5723322+02:00;Thread#12;Info;Discovering tests from assembly: C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\BookLibraryTestProject.dll
+2021-01-13T16:22:31.6793482+02:00;Thread#12;Info;Discovered tests from assembly: C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\BookLibraryTestProject.dll
+2021-01-13T16:22:31.6810117+02:00:Test Suite Dump
+2021-01-13T16:22:31.6828296+02:00:#0: Unnamed project/ - 
+2021-01-13T16:22:31.6828487+02:00:#1: Default - 
+2021-01-13T16:22:31.6828517+02:00:#2: BookLibraryTestProject - 
+2021-01-13T16:22:31.6828537+02:00:#3: Library - 
+2021-01-13T16:22:31.6840303+02:00:#4: Create a book - TestAssembly:BookLibraryTestProject/Feature:Library/Scenario:Create+a+book
+2021-01-13T16:22:31.6840669+02:00:#5: Update last created book - TestAssembly:BookLibraryTestProject/Feature:Library/Scenario:Update+last+created+book
+2021-01-13T16:22:31.6840778+02:00:#6: Delete last created book - TestAssembly:BookLibraryTestProject/Feature:Library/Scenario:Delete+last+created+book
+2021-01-13T16:22:31.6840860+02:00:#7: Create a journal - TestAssembly:BookLibraryTestProject/Feature:Library/Scenario:Create+a+journal
+2021-01-13T16:22:31.6841368+02:00:End: Test Suite Dump
+2021-01-13T16:22:31.7041483+02:00:Thread#0:Scheduler: get next test for thread 0
+2021-01-13T16:22:31.7062038+02:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2021-01-13T16:22:31.7063014+02:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-01-13T16:22:31.7104859+02:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-01-13T16:22:31.7105047+02:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-01-13T16:22:31.7105075+02:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2021-01-13T16:22:31.7105149+02:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-01-13T16:22:31.7113373+02:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-01-13T16:22:31.7128711+02:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-01-13T16:22:31.7154172+02:00:Thread #0: creating new test thread executor for BookLibraryTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-01-13T16:22:31.7182479+02:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-01-13T16:22:31.7184794+02:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-01-13T16:22:31.7211235+02:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-01-13T16:22:31.7231447+02:00:starting Out Of Process Executor
+2021-01-13T16:22:31.7258411+02:00:Assembly resolving Microsoft.VisualStudio.Validation, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2021-01-13T16:22:31.7291568+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' from .deps.json file
+2021-01-13T16:22:31.7291780+02:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' from .deps.json
+2021-01-13T16:22:31.7306815+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1'
+2021-01-13T16:22:31.7311206+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll'
+2021-01-13T16:22:31.7312329+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Validation.exe'
+2021-01-13T16:22:31.7313038+02:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1'
+2021-01-13T16:22:31.7315865+02:00:TargetFramework: .NETCoreApp,Version=v3.1
+2021-01-13T16:22:31.7322292+02:00:Tfm: netcoreapp3.1
+2021-01-13T16:22:31.7322416+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-01-13T16:22:31.7322440+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll'
+2021-01-13T16:22:31.7323316+02:00:[AssemblyCache] Found file 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll' for assembly 'Microsoft.VisualStudio.Validation'
+2021-01-13T16:22:31.7329719+02:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.Validation' to C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll
+2021-01-13T16:22:31.7337291+02:00:Starting callback TCP Rpc server
+2021-01-13T16:22:31.7522730+02:00:Asynchronously starting background TCP Rpc Server on port 32768
+2021-01-13T16:22:31.7523163+02:00:Started callback TCP Rpc server on port 32768
+2021-01-13T16:22:31.7523195+02:00:Starting logger TCP Rpc server
+2021-01-13T16:22:31.7547745+02:00:Asynchronously starting background TCP Rpc Server on port 32769
+2021-01-13T16:22:31.7547955+02:00:Started logger TCP Rpc server on port 32769
+2021-01-13T16:22:31.8462136+02:00:Executing test executor at 'dotnet' 'exec "C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\TechTalk.SpecRun.Framework.Executor.anycpu.netcoreapp3_1.dll" --remoteRunnerPid 14856 --uniqueId "2021-01-13T162231" --outputFolder "C:\Users\tmoiseev\source\repos\BookLibraryTestProject\TestResults" --callbackPort 32768 --loggerPort 32769' in 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1'
+2021-01-13T16:22:35.1969831+02:00:Executor with PID 24632 has been started successfully.
+2021-01-13T16:22:35.1997663+02:00:Out of Process Executor 24632 started
+2021-01-13T16:22:35.1997831+02:00:Waiting for endpoint
+2021-01-13T16:22:35.4902882+02:00:Assembly resolving Microsoft.VisualStudio.Threading, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2021-01-13T16:22:35.4905080+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' from .deps.json file
+2021-01-13T16:22:35.4905207+02:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' from .deps.json
+2021-01-13T16:22:35.4905492+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1'
+2021-01-13T16:22:35.4905542+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll'
+2021-01-13T16:22:35.4908033+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Threading.exe'
+2021-01-13T16:22:35.4908469+02:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1'
+2021-01-13T16:22:35.4908605+02:00:TargetFramework: .NETCoreApp,Version=v3.1
+2021-01-13T16:22:35.4910397+02:00:Tfm: netcoreapp3.1
+2021-01-13T16:22:35.4910602+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-01-13T16:22:35.4910764+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll'
+2021-01-13T16:22:35.4912370+02:00:[AssemblyCache] Found file 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll' for assembly 'Microsoft.VisualStudio.Threading'
+2021-01-13T16:22:35.4922474+02:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.Threading' to C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll
+2021-01-13T16:22:35.7378886+02:00:Remote executor port received: 32770
+2021-01-13T16:22:35.7382149+02:00:Creating executor TCP client on port 32770
+2021-01-13T16:22:35.7386217+02:00:Created executor TCP client on port 32770
+2021-01-13T16:22:35.7386292+02:00:Connecting to remote executor TCP server
+2021-01-13T16:22:35.7399172+02:00:Connected remote executor TCP server
+2021-01-13T16:22:35.7403518+02:00:trying to connect to Out of Process Executor the 1 attempt
+2021-01-13T16:22:35.7403648+02:00:Connection to Out of Process Executor established in the 1 attempt
+2021-01-13T16:22:35.8958126+02:00:2021-01-13T16:22:35.8944748+02:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\BookLibraryTestProject.dll on test thread #0
+2021-01-13T16:22:35.9024138+02:00:Endpoint 24632 started
+2021-01-13T16:22:35.9269045+02:00:2021-01-13T16:22:35.9263622+02:00:OutOfProcessTestAssemblyExecutor: running tests...
+2021-01-13T16:22:36.0594847+02:00:2021-01-13T16:22:36.0590219+02:00:Assembly resolving TechTalk.SpecFlow, Version=3.5.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2021-01-13T16:22:36.0629028+02:00:2021-01-13T16:22:36.0625020+02:00:[AssemblyCache] Trying to resolve 'TechTalk.SpecFlow' from .deps.json file
+2021-01-13T16:22:36.0661725+02:00:2021-01-13T16:22:36.0657989+02:00:[AssemblyCache] Resolved 'TechTalk.SpecFlow' to 'C:\Users\tmoiseev\.nuget\packages\specflow\3.5.5\lib\netstandard2.0\TechTalk.SpecFlow.dll'
+2021-01-13T16:22:36.1941456+02:00:2021-01-13T16:22:36.1930033+02:00:Thread#0:T:-> Loading plugin C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\LivingDoc.SpecFlowPlugin.dll
+2021-01-13T16:22:36.1982816+02:00:2021-01-13T16:22:36.1971027+02:00:Assembly resolving TechTalk.SpecFlow, Version=3.4.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2021-01-13T16:22:36.2009830+02:00:2021-01-13T16:22:36.1997706+02:00:Assembly resolving LivingDoc.Dtos, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+2021-01-13T16:22:36.2028904+02:00:2021-01-13T16:22:36.2018427+02:00:[AssemblyCache] Trying to resolve 'LivingDoc.Dtos' from .deps.json file
+2021-01-13T16:22:36.2046121+02:00:2021-01-13T16:22:36.2038490+02:00:[AssemblyCache] Resolved 'LivingDoc.Dtos' to 'C:\Users\tmoiseev\.nuget\packages\specflow.plus.livingdocplugin\3.5.186\lib\netstandard2.0\LivingDoc.Dtos.dll'
+2021-01-13T16:22:36.2107442+02:00:2021-01-13T16:22:36.2097547+02:00:Thread#0:T:-> Loading plugin C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-01-13T16:22:36.2140574+02:00:2021-01-13T16:22:36.2130741+02:00:Assembly resolving TechTalk.SpecFlow, Version=3.5.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2021-01-13T16:22:36.2199987+02:00:2021-01-13T16:22:36.2191602+02:00:Thread#0:T:-> Using default config
+2021-01-13T16:22:36.2330017+02:00:2021-01-13T16:22:36.2321638+02:00:Assembly resolving Cucumber.Messages, Version=6.0.1.0, Culture=neutral, PublicKeyToken=b10c5988214f940c
+2021-01-13T16:22:36.2342204+02:00:2021-01-13T16:22:36.2336125+02:00:[AssemblyCache] Trying to resolve 'Cucumber.Messages' from .deps.json file
+2021-01-13T16:22:36.2355136+02:00:2021-01-13T16:22:36.2349405+02:00:[AssemblyCache] Resolved 'Cucumber.Messages' to 'C:\Users\tmoiseev\.nuget\packages\cucumber.messages\6.0.1\lib\netstandard2.0\Cucumber.Messages.dll'
+2021-01-13T16:22:36.2385153+02:00:2021-01-13T16:22:36.2376839+02:00:Assembly resolving Google.Protobuf, Version=3.7.0.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604
+2021-01-13T16:22:36.2394753+02:00:2021-01-13T16:22:36.2391296+02:00:[AssemblyCache] Trying to resolve 'Google.Protobuf' from .deps.json file
+2021-01-13T16:22:36.2404577+02:00:2021-01-13T16:22:36.2400499+02:00:[AssemblyCache] Resolved 'Google.Protobuf' to 'C:\Users\tmoiseev\.nuget\packages\google.protobuf\3.7.0\lib\netstandard1.0\Google.Protobuf.dll'
+2021-01-13T16:22:36.2511271+02:00:2021-01-13T16:22:36.2506998+02:00:Assembly resolving Microsoft.EntityFrameworkCore, Version=5.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-13T16:22:36.2519487+02:00:2021-01-13T16:22:36.2515758+02:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore' from .deps.json file
+2021-01-13T16:22:36.2527967+02:00:2021-01-13T16:22:36.2524358+02:00:[AssemblyCache] Resolved 'Microsoft.EntityFrameworkCore' to 'C:\Users\tmoiseev\.nuget\packages\microsoft.entityframeworkcore\5.0.1\lib\netstandard2.1\Microsoft.EntityFrameworkCore.dll'
+2021-01-13T16:22:36.2578326+02:00:2021-01-13T16:22:36.2571703+02:00:Assembly resolving Microsoft.VisualStudio.TestPlatform.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2021-01-13T16:22:36.2587397+02:00:2021-01-13T16:22:36.2582951+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.ObjectModel' from .deps.json file
+2021-01-13T16:22:36.2598146+02:00:2021-01-13T16:22:36.2594170+02:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.TestPlatform.ObjectModel' to 'C:\Users\tmoiseev\.nuget\packages\microsoft.testplatform.objectmodel\16.5.0\lib\netstandard2.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll'
+2021-01-13T16:22:36.2945254+02:00:2021-01-13T16:22:36.2939671+02:00:Assembly resolving Utf8Json, Version=1.3.7.0, Culture=neutral, PublicKeyToken=8a73d3ba7e392e27
+2021-01-13T16:22:36.2952304+02:00:2021-01-13T16:22:36.2948907+02:00:[AssemblyCache] Trying to resolve 'Utf8Json' from .deps.json file
+2021-01-13T16:22:36.2960529+02:00:2021-01-13T16:22:36.2957453+02:00:[AssemblyCache] Resolved 'Utf8Json' to 'C:\Users\tmoiseev\.nuget\packages\utf8json\1.3.7\lib\netstandard2.0\Utf8Json.dll'
+2021-01-13T16:22:36.5103759+02:00:Thread#0: Test #4/0 is started on thread #0
+2021-01-13T16:22:36.5500457+02:00:2021-01-13T16:22:36.5493943+02:00:Thread#0:B:Given add new 'book' to library
+2021-01-13T16:22:36.5508791+02:00:2021-01-13T16:22:36.5504866+02:00:Thread#0:B:  --- table step argument ---
+2021-01-13T16:22:36.5515443+02:00:2021-01-13T16:22:36.5512067+02:00:Thread#0:B:  | Author | BookName |
+2021-01-13T16:22:36.5521864+02:00:2021-01-13T16:22:36.5518822+02:00:Thread#0:B:  | Tim    | test     |
+2021-01-13T16:22:36.5715106+02:00:2021-01-13T16:22:36.5710127+02:00:Assembly resolving Microsoft.Extensions.DependencyInjection.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-13T16:22:36.5722646+02:00:2021-01-13T16:22:36.5719006+02:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.DependencyInjection.Abstractions' from .deps.json file
+2021-01-13T16:22:36.5732295+02:00:2021-01-13T16:22:36.5727903+02:00:[AssemblyCache] Resolved 'Microsoft.Extensions.DependencyInjection.Abstractions' to 'C:\Users\tmoiseev\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\5.0.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll'
+2021-01-13T16:22:36.5818901+02:00:2021-01-13T16:22:36.5813757+02:00:Assembly resolving Microsoft.Extensions.DependencyInjection, Version=5.0.0.1, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-13T16:22:36.5826382+02:00:2021-01-13T16:22:36.5822621+02:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.DependencyInjection' from .deps.json file
+2021-01-13T16:22:36.5834372+02:00:2021-01-13T16:22:36.5831095+02:00:[AssemblyCache] Resolved 'Microsoft.Extensions.DependencyInjection' to 'C:\Users\tmoiseev\.nuget\packages\microsoft.extensions.dependencyinjection\5.0.1\lib\netstandard2.1\Microsoft.Extensions.DependencyInjection.dll'
+2021-01-13T16:22:36.5864644+02:00:2021-01-13T16:22:36.5858875+02:00:Assembly resolving Microsoft.Extensions.Logging.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-13T16:22:36.5872690+02:00:2021-01-13T16:22:36.5868844+02:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Logging.Abstractions' from .deps.json file
+2021-01-13T16:22:36.5882845+02:00:2021-01-13T16:22:36.5878981+02:00:[AssemblyCache] Resolved 'Microsoft.Extensions.Logging.Abstractions' to 'C:\Users\tmoiseev\.nuget\packages\microsoft.extensions.logging.abstractions\5.0.0\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll'
+2021-01-13T16:22:36.5912626+02:00:2021-01-13T16:22:36.5901532+02:00:Assembly resolving System.Diagnostics.DiagnosticSource, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51
+2021-01-13T16:22:36.5924287+02:00:2021-01-13T16:22:36.5918511+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.DiagnosticSource' from .deps.json file
+2021-01-13T16:22:36.5933647+02:00:2021-01-13T16:22:36.5929844+02:00:[AssemblyCache] Resolved 'System.Diagnostics.DiagnosticSource' to 'C:\Users\tmoiseev\.nuget\packages\system.diagnostics.diagnosticsource\5.0.0\lib\netstandard1.3\System.Diagnostics.DiagnosticSource.dll'
+2021-01-13T16:22:36.6116744+02:00:2021-01-13T16:22:36.6111546+02:00:Assembly resolving Microsoft.EntityFrameworkCore.Abstractions, Version=5.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-13T16:22:36.6124502+02:00:2021-01-13T16:22:36.6120166+02:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.Abstractions' from .deps.json file
+2021-01-13T16:22:36.6133985+02:00:2021-01-13T16:22:36.6129976+02:00:[AssemblyCache] Resolved 'Microsoft.EntityFrameworkCore.Abstractions' to 'C:\Users\tmoiseev\.nuget\packages\microsoft.entityframeworkcore.abstractions\5.0.1\lib\netstandard2.1\Microsoft.EntityFrameworkCore.Abstractions.dll'
+2021-01-13T16:22:36.6150529+02:00:2021-01-13T16:22:36.6147003+02:00:Assembly resolving Microsoft.Extensions.Caching.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-13T16:22:36.6158953+02:00:2021-01-13T16:22:36.6155406+02:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Caching.Abstractions' from .deps.json file
+2021-01-13T16:22:36.6168316+02:00:2021-01-13T16:22:36.6164742+02:00:[AssemblyCache] Resolved 'Microsoft.Extensions.Caching.Abstractions' to 'C:\Users\tmoiseev\.nuget\packages\microsoft.extensions.caching.abstractions\5.0.0\lib\netstandard2.0\Microsoft.Extensions.Caching.Abstractions.dll'
+2021-01-13T16:22:36.6981245+02:00:2021-01-13T16:22:36.6975643+02:00:Assembly resolving Microsoft.EntityFrameworkCore.SqlServer, Version=5.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-13T16:22:36.6989225+02:00:2021-01-13T16:22:36.6985218+02:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.SqlServer' from .deps.json file
+2021-01-13T16:22:36.6999394+02:00:2021-01-13T16:22:36.6995136+02:00:[AssemblyCache] Resolved 'Microsoft.EntityFrameworkCore.SqlServer' to 'C:\Users\tmoiseev\.nuget\packages\microsoft.entityframeworkcore.sqlserver\5.0.1\lib\netstandard2.1\Microsoft.EntityFrameworkCore.SqlServer.dll'
+2021-01-13T16:22:36.7018182+02:00:2021-01-13T16:22:36.7014095+02:00:Assembly resolving Microsoft.EntityFrameworkCore.Relational, Version=5.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-13T16:22:36.7025173+02:00:2021-01-13T16:22:36.7021694+02:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.Relational' from .deps.json file
+2021-01-13T16:22:36.7034524+02:00:2021-01-13T16:22:36.7030608+02:00:[AssemblyCache] Resolved 'Microsoft.EntityFrameworkCore.Relational' to 'C:\Users\tmoiseev\.nuget\packages\microsoft.entityframeworkcore.relational\5.0.1\lib\netstandard2.1\Microsoft.EntityFrameworkCore.Relational.dll'
+2021-01-13T16:22:36.7536109+02:00:2021-01-13T16:22:36.7528158+02:00:Assembly resolving Microsoft.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-13T16:22:36.7548456+02:00:2021-01-13T16:22:36.7542278+02:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Logging' from .deps.json file
+2021-01-13T16:22:36.7565376+02:00:2021-01-13T16:22:36.7556463+02:00:[AssemblyCache] Resolved 'Microsoft.Extensions.Logging' to 'C:\Users\tmoiseev\.nuget\packages\microsoft.extensions.logging\5.0.0\lib\netstandard2.1\Microsoft.Extensions.Logging.dll'
+2021-01-13T16:22:36.7606821+02:00:2021-01-13T16:22:36.7601297+02:00:Assembly resolving Microsoft.Extensions.Options, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-13T16:22:36.7614623+02:00:2021-01-13T16:22:36.7610820+02:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Options' from .deps.json file
+2021-01-13T16:22:36.7625041+02:00:2021-01-13T16:22:36.7620996+02:00:[AssemblyCache] Resolved 'Microsoft.Extensions.Options' to 'C:\Users\tmoiseev\.nuget\packages\microsoft.extensions.options\5.0.0\lib\netstandard2.0\Microsoft.Extensions.Options.dll'
+2021-01-13T16:22:36.8001510+02:00:2021-01-13T16:22:36.7995746+02:00:Assembly resolving Microsoft.Extensions.Caching.Memory, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-13T16:22:36.8009053+02:00:2021-01-13T16:22:36.8005386+02:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Caching.Memory' from .deps.json file
+2021-01-13T16:22:36.8017797+02:00:2021-01-13T16:22:36.8014069+02:00:[AssemblyCache] Resolved 'Microsoft.Extensions.Caching.Memory' to 'C:\Users\tmoiseev\.nuget\packages\microsoft.extensions.caching.memory\5.0.0\lib\netstandard2.0\Microsoft.Extensions.Caching.Memory.dll'
+2021-01-13T16:22:36.8040547+02:00:2021-01-13T16:22:36.8036743+02:00:Assembly resolving Microsoft.Extensions.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-13T16:22:36.8047709+02:00:2021-01-13T16:22:36.8044288+02:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Primitives' from .deps.json file
+2021-01-13T16:22:36.8056661+02:00:2021-01-13T16:22:36.8053019+02:00:[AssemblyCache] Resolved 'Microsoft.Extensions.Primitives' to 'C:\Users\tmoiseev\.nuget\packages\microsoft.extensions.primitives\5.0.0\lib\netcoreapp3.0\Microsoft.Extensions.Primitives.dll'
+2021-01-13T16:22:36.8381397+02:00:2021-01-13T16:22:36.8375380+02:00:Assembly resolving System.ComponentModel.Annotations, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2021-01-13T16:22:36.8394859+02:00:2021-01-13T16:22:36.8386602+02:00:[AssemblyCache] Trying to resolve 'System.ComponentModel.Annotations' from .deps.json file
+2021-01-13T16:22:36.8412435+02:00:2021-01-13T16:22:36.8405956+02:00:[AssemblyCache] Resolved 'System.ComponentModel.Annotations' to 'C:\Users\tmoiseev\.nuget\packages\system.componentmodel.annotations\5.0.0\lib\netstandard2.1\System.ComponentModel.Annotations.dll'
+2021-01-13T16:22:36.9883427+02:00:2021-01-13T16:22:36.9875914+02:00:Assembly resolving System.Collections.Immutable, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2021-01-13T16:22:36.9894095+02:00:2021-01-13T16:22:36.9887910+02:00:[AssemblyCache] Trying to resolve 'System.Collections.Immutable' from .deps.json file
+2021-01-13T16:22:36.9919005+02:00:2021-01-13T16:22:36.9905708+02:00:[AssemblyCache] Resolved 'System.Collections.Immutable' to 'C:\Users\tmoiseev\.nuget\packages\system.collections.immutable\5.0.0\lib\netstandard2.0\System.Collections.Immutable.dll'
+2021-01-13T16:22:37.4082908+02:00:2021-01-13T16:22:37.4067231+02:00:Assembly resolving Microsoft.Extensions.Configuration.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-13T16:22:37.4114800+02:00:2021-01-13T16:22:37.4105796+02:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Configuration.Abstractions' from .deps.json file
+2021-01-13T16:22:37.4129923+02:00:2021-01-13T16:22:37.4123443+02:00:[AssemblyCache] Resolved 'Microsoft.Extensions.Configuration.Abstractions' to 'C:\Users\tmoiseev\.nuget\packages\microsoft.extensions.configuration.abstractions\5.0.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.dll'
+2021-01-13T16:22:37.4461522+02:00:2021-01-13T16:22:37.4453125+02:00:Assembly resolving Microsoft.Data.SqlClient, Version=2.0.20168.4, Culture=neutral, PublicKeyToken=23ec7fc2d6eaa4a5
+2021-01-13T16:22:37.4470621+02:00:2021-01-13T16:22:37.4465652+02:00:[AssemblyCache] Trying to resolve 'Microsoft.Data.SqlClient' from .deps.json file
+2021-01-13T16:22:37.4482997+02:00:2021-01-13T16:22:37.4477505+02:00:[AssemblyCache] Resolved 'Microsoft.Data.SqlClient' to 'C:\Users\tmoiseev\.nuget\packages\microsoft.data.sqlclient\2.0.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll'
+2021-01-13T16:22:37.4774290+02:00:2021-01-13T16:22:37.4751828+02:00:Assembly resolving Microsoft.Data.SqlClient, Culture=neutral, PublicKeyToken=null
+2021-01-13T16:22:37.4793436+02:00:2021-01-13T16:22:37.4785761+02:00:Assembly resolving Microsoft.Data.SqlClient.resources, Version=2.0.20168.4, Culture=en-US, PublicKeyToken=23ec7fc2d6eaa4a5
+2021-01-13T16:22:37.4805373+02:00:2021-01-13T16:22:37.4798368+02:00:[AssemblyCache] Trying to resolve 'Microsoft.Data.SqlClient.resources' from .deps.json file
+2021-01-13T16:22:37.4816157+02:00:2021-01-13T16:22:37.4810443+02:00:[AssemblyCache] Could not resolve 'Microsoft.Data.SqlClient.resources' from .deps.json
+2021-01-13T16:22:37.4837740+02:00:2021-01-13T16:22:37.4833885+02:00:[AssemblyCache] Trying to resolve 'Microsoft.Data.SqlClient.resources' in folder 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1'
+2021-01-13T16:22:37.4876139+02:00:2021-01-13T16:22:37.4871732+02:00:[AssemblyCache] Trying to resolve 'Microsoft.Data.SqlClient.resources' to 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.resources.dll'
+2021-01-13T16:22:37.4884864+02:00:2021-01-13T16:22:37.4881046+02:00:[AssemblyCache] Trying to resolve 'Microsoft.Data.SqlClient.resources' to 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.resources.exe'
+2021-01-13T16:22:37.4891438+02:00:2021-01-13T16:22:37.4888279+02:00:[AssemblyCache] Could not resolve 'Microsoft.Data.SqlClient.resources' in folder 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1'
+2021-01-13T16:22:37.4904083+02:00:2021-01-13T16:22:37.4898844+02:00:TargetFramework: .NETCoreApp,Version=v3.1
+2021-01-13T16:22:37.4923377+02:00:2021-01-13T16:22:37.4916954+02:00:Tfm: netcoreapp3.1
+2021-01-13T16:22:37.4931860+02:00:2021-01-13T16:22:37.4927574+02:00:[AssemblyCache] Trying to resolve 'Microsoft.Data.SqlClient.resources' in folder 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-01-13T16:22:37.4939428+02:00:2021-01-13T16:22:37.4935065+02:00:[AssemblyCache] Trying to resolve 'Microsoft.Data.SqlClient.resources' to 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.Data.SqlClient.resources.dll'
+2021-01-13T16:22:37.4947097+02:00:2021-01-13T16:22:37.4943464+02:00:[AssemblyCache] Trying to resolve 'Microsoft.Data.SqlClient.resources' to 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.Data.SqlClient.resources.exe'
+2021-01-13T16:22:37.4955383+02:00:2021-01-13T16:22:37.4950792+02:00:[AssemblyCache] Could not resolve 'Microsoft.Data.SqlClient.resources' in folder 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-01-13T16:22:37.5051464+02:00:2021-01-13T16:22:37.5046295+02:00:[AssemblyCache] Trying to resolve 'Microsoft.Data.SqlClient.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.10'
+2021-01-13T16:22:37.5058744+02:00:2021-01-13T16:22:37.5054935+02:00:[AssemblyCache] Trying to resolve 'Microsoft.Data.SqlClient.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.10\Microsoft.Data.SqlClient.resources.dll'
+2021-01-13T16:22:37.5067819+02:00:2021-01-13T16:22:37.5063056+02:00:[AssemblyCache] Trying to resolve 'Microsoft.Data.SqlClient.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.10\Microsoft.Data.SqlClient.resources.exe'
+2021-01-13T16:22:37.5075518+02:00:2021-01-13T16:22:37.5071938+02:00:[AssemblyCache] Could not resolve 'Microsoft.Data.SqlClient.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.10'
+2021-01-13T16:22:37.5111658+02:00:2021-01-13T16:22:37.5095706+02:00:[AssemblyCache] Trying to resolve 'Microsoft.Data.SqlClient.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.10'
+2021-01-13T16:22:37.5121222+02:00:2021-01-13T16:22:37.5116564+02:00:[AssemblyCache] Trying to resolve 'Microsoft.Data.SqlClient.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.10\Microsoft.Data.SqlClient.resources.dll'
+2021-01-13T16:22:37.5129417+02:00:2021-01-13T16:22:37.5125709+02:00:[AssemblyCache] Trying to resolve 'Microsoft.Data.SqlClient.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.10\Microsoft.Data.SqlClient.resources.exe'
+2021-01-13T16:22:37.5137436+02:00:2021-01-13T16:22:37.5133231+02:00:[AssemblyCache] Could not resolve 'Microsoft.Data.SqlClient.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.10'
+2021-01-13T16:22:37.5145598+02:00:2021-01-13T16:22:37.5142001+02:00:[AssemblyCache] Trying to resolve 'Microsoft.Data.SqlClient.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.10'
+2021-01-13T16:22:37.5152671+02:00:2021-01-13T16:22:37.5149205+02:00:[AssemblyCache] Trying to resolve 'Microsoft.Data.SqlClient.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.10\Microsoft.Data.SqlClient.resources.dll'
+2021-01-13T16:22:37.5158966+02:00:2021-01-13T16:22:37.5155913+02:00:[AssemblyCache] Trying to resolve 'Microsoft.Data.SqlClient.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.10\Microsoft.Data.SqlClient.resources.exe'
+2021-01-13T16:22:37.5165370+02:00:2021-01-13T16:22:37.5162245+02:00:[AssemblyCache] Could not resolve 'Microsoft.Data.SqlClient.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.10'
+2021-01-13T16:22:37.5202709+02:00:2021-01-13T16:22:37.5197797+02:00:Assembly resolving Microsoft.Data.SqlClient, Culture=neutral, PublicKeyToken=null
+2021-01-13T16:22:37.5210767+02:00:2021-01-13T16:22:37.5206990+02:00:Assembly resolving Microsoft.Data.SqlClient.resources, Version=2.0.20168.4, Culture=en, PublicKeyToken=23ec7fc2d6eaa4a5
+2021-01-13T16:22:37.5233605+02:00:2021-01-13T16:22:37.5228053+02:00:Assembly resolving Microsoft.Data.SqlClient, Culture=neutral, PublicKeyToken=null
+2021-01-13T16:22:37.5253001+02:00:2021-01-13T16:22:37.5243312+02:00:Assembly resolving Microsoft.Data.SqlClient.resources, Version=2.0.20168.4, Culture=en-US, PublicKeyToken=23ec7fc2d6eaa4a5
+2021-01-13T16:22:37.5283241+02:00:2021-01-13T16:22:37.5274958+02:00:Assembly resolving Microsoft.Data.SqlClient, Culture=neutral, PublicKeyToken=null
+2021-01-13T16:22:37.5295536+02:00:2021-01-13T16:22:37.5290328+02:00:Assembly resolving Microsoft.Data.SqlClient.resources, Version=2.0.20168.4, Culture=en, PublicKeyToken=23ec7fc2d6eaa4a5
+2021-01-13T16:22:37.5676512+02:00:2021-01-13T16:22:37.5670905+02:00:Assembly resolving System.Configuration.ConfigurationManager, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51
+2021-01-13T16:22:37.5683986+02:00:2021-01-13T16:22:37.5680822+02:00:[AssemblyCache] Trying to resolve 'System.Configuration.ConfigurationManager' from .deps.json file
+2021-01-13T16:22:37.5692449+02:00:2021-01-13T16:22:37.5688692+02:00:[AssemblyCache] Resolved 'System.Configuration.ConfigurationManager' to 'C:\Users\tmoiseev\.nuget\packages\system.configuration.configurationmanager\4.7.0\lib\netstandard2.0\System.Configuration.ConfigurationManager.dll'
+2021-01-13T16:22:38.1971572+02:00:2021-01-13T16:22:38.1966962+02:00:Thread#0:T:done: LibrarySteps.GivenAddNewBookToLibrary("book", <table>) (1.6s)
+2021-01-13T16:22:38.1997789+02:00:2021-01-13T16:22:38.1993393+02:00:Thread#0:B:Then verify that 'book' was added
+2021-01-13T16:22:38.2019237+02:00:2021-01-13T16:22:38.2015866+02:00:Assembly resolving Microsoft.VisualStudio.TestPlatform.TestFramework, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2021-01-13T16:22:38.2026228+02:00:2021-01-13T16:22:38.2022628+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.TestFramework' from .deps.json file
+2021-01-13T16:22:38.2033910+02:00:2021-01-13T16:22:38.2031012+02:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.TestPlatform.TestFramework' to 'C:\Users\tmoiseev\.nuget\packages\mstest.testframework\2.1.2\lib\netstandard1.0\Microsoft.VisualStudio.TestPlatform.TestFramework.dll'
+2021-01-13T16:22:38.2110364+02:00:2021-01-13T16:22:38.2106343+02:00:Thread#0:T:done: LibrarySteps.ThenVerifyThatBookWasAdded("book") (0.0s)
+2021-01-13T16:22:38.2253545+02:00:Thread#0:Scheduler: get next test for thread 0
+2021-01-13T16:22:38.2254229+02:00:Thread#:Scheduler: testitem #5 from normal test queue 
+2021-01-13T16:22:38.2254289+02:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2021-01-13T16:22:38.2255829+02:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2021-01-13T16:22:38.2255901+02:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2021-01-13T16:22:38.2255919+02:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2021-01-13T16:22:38.2255937+02:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2021-01-13T16:22:38.2256548+02:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2021-01-13T16:22:38.2257182+02:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-01-13T16:22:38.2776798+02:00:Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 1.766044 seconds
+2021-01-13T16:22:38.2805915+02:00:Thread#0: Test #5/0 is started on thread #0
+2021-01-13T16:22:38.2826991+02:00:2021-01-13T16:22:38.2822872+02:00:Thread#0:B:Given add new 'book' to library
+2021-01-13T16:22:38.2833101+02:00:2021-01-13T16:22:38.2830219+02:00:Thread#0:B:  --- table step argument ---
+2021-01-13T16:22:38.2839157+02:00:2021-01-13T16:22:38.2836043+02:00:Thread#0:B:  | Author | BookName |
+2021-01-13T16:22:38.2844762+02:00:2021-01-13T16:22:38.2842098+02:00:Thread#0:B:  | Tim    | test     |
+2021-01-13T16:22:38.2956988+02:00:2021-01-13T16:22:38.2952221+02:00:Thread#0:T:done: LibrarySteps.GivenAddNewBookToLibrary("book", <table>) (0.0s)
+2021-01-13T16:22:38.2967518+02:00:2021-01-13T16:22:38.2963168+02:00:Thread#0:B:When update last created 'book' info with following parameters
+2021-01-13T16:22:38.2974210+02:00:2021-01-13T16:22:38.2970439+02:00:Thread#0:B:  --- table step argument ---
+2021-01-13T16:22:38.2979612+02:00:2021-01-13T16:22:38.2977220+02:00:Thread#0:B:  | Author | BookName |
+2021-01-13T16:22:38.2986267+02:00:2021-01-13T16:22:38.2982994+02:00:Thread#0:B:  | Test   | TIm      |
+2021-01-13T16:22:38.3119683+02:00:2021-01-13T16:22:38.3115513+02:00:Thread#0:T:done: LibrarySteps.UpdateLastCreatedProduct("book", <table>) (0.0s)
+2021-01-13T16:22:38.3126981+02:00:2021-01-13T16:22:38.3123529+02:00:Thread#0:B:Then last created 'book' was updated with following parameters
+2021-01-13T16:22:38.3133336+02:00:2021-01-13T16:22:38.3130148+02:00:Thread#0:B:  --- table step argument ---
+2021-01-13T16:22:38.3139198+02:00:2021-01-13T16:22:38.3136308+02:00:Thread#0:B:  | Author | BookName |
+2021-01-13T16:22:38.3144823+02:00:2021-01-13T16:22:38.3141853+02:00:Thread#0:B:  | Test   | TIm      |
+2021-01-13T16:22:38.3181588+02:00:2021-01-13T16:22:38.3177992+02:00:Assembly resolving Microsoft.VisualStudio.TestPlatform.TestFramework, Culture=neutral, PublicKeyToken=null
+2021-01-13T16:22:38.3190454+02:00:2021-01-13T16:22:38.3186057+02:00:Assembly resolving Microsoft.VisualStudio.TestPlatform.TestFramework.resources, Version=14.0.0.0, Culture=en-US, PublicKeyToken=b03f5f7f11d50a3a
+2021-01-13T16:22:38.3196922+02:00:2021-01-13T16:22:38.3193630+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.TestFramework.resources' from .deps.json file
+2021-01-13T16:22:38.3202951+02:00:2021-01-13T16:22:38.3199717+02:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.TestPlatform.TestFramework.resources' from .deps.json
+2021-01-13T16:22:38.3208693+02:00:2021-01-13T16:22:38.3206025+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.TestFramework.resources' in folder 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1'
+2021-01-13T16:22:38.3213640+02:00:2021-01-13T16:22:38.3211463+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.TestFramework.resources' to 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll'
+2021-01-13T16:22:38.3219681+02:00:2021-01-13T16:22:38.3217082+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.TestFramework.resources' to 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.exe'
+2021-01-13T16:22:38.3225537+02:00:2021-01-13T16:22:38.3222828+02:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.TestPlatform.TestFramework.resources' in folder 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1'
+2021-01-13T16:22:38.3232347+02:00:2021-01-13T16:22:38.3228459+02:00:TargetFramework: .NETCoreApp,Version=v3.1
+2021-01-13T16:22:38.3243499+02:00:2021-01-13T16:22:38.3236233+02:00:Tfm: netcoreapp3.1
+2021-01-13T16:22:38.3260702+02:00:2021-01-13T16:22:38.3252761+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.TestFramework.resources' in folder 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-01-13T16:22:38.3271597+02:00:2021-01-13T16:22:38.3265902+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.TestFramework.resources' to 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll'
+2021-01-13T16:22:38.3280961+02:00:2021-01-13T16:22:38.3276629+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.TestFramework.resources' to 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.exe'
+2021-01-13T16:22:38.3288162+02:00:2021-01-13T16:22:38.3284662+02:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.TestPlatform.TestFramework.resources' in folder 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-01-13T16:22:38.3302505+02:00:2021-01-13T16:22:38.3299003+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.TestFramework.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.10'
+2021-01-13T16:22:38.3309204+02:00:2021-01-13T16:22:38.3305730+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.TestFramework.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.10\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll'
+2021-01-13T16:22:38.3321454+02:00:2021-01-13T16:22:38.3318010+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.TestFramework.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.10\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.exe'
+2021-01-13T16:22:38.3328358+02:00:2021-01-13T16:22:38.3324875+02:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.TestPlatform.TestFramework.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.10'
+2021-01-13T16:22:38.3335439+02:00:2021-01-13T16:22:38.3332623+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.TestFramework.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.10'
+2021-01-13T16:22:38.3340690+02:00:2021-01-13T16:22:38.3338014+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.TestFramework.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.10\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll'
+2021-01-13T16:22:38.3346256+02:00:2021-01-13T16:22:38.3343656+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.TestFramework.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.10\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.exe'
+2021-01-13T16:22:38.3351884+02:00:2021-01-13T16:22:38.3348959+02:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.TestPlatform.TestFramework.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.10'
+2021-01-13T16:22:38.3358714+02:00:2021-01-13T16:22:38.3355749+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.TestFramework.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.10'
+2021-01-13T16:22:38.3364753+02:00:2021-01-13T16:22:38.3361902+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.TestFramework.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.10\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll'
+2021-01-13T16:22:38.3371960+02:00:2021-01-13T16:22:38.3368872+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.TestFramework.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.10\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.exe'
+2021-01-13T16:22:38.3378164+02:00:2021-01-13T16:22:38.3375259+02:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.TestPlatform.TestFramework.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.10'
+2021-01-13T16:22:38.3673206+02:00:2021-01-13T16:22:38.3668280+02:00:Thread#0:T:error: Assert.AreEqual failed. Expected:<Library.Book>. Actual:<Library.Book>. 
+2021-01-13T16:22:38.3784555+02:00:Thread#0:TestItem#5:Scheduler: reschedule tests for testitem #5
+2021-01-13T16:22:38.3794619+02:00:Thread#0:Scheduler: get next test for thread 0
+2021-01-13T16:22:38.3794831+02:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+2021-01-13T16:22:38.3794860+02:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2021-01-13T16:22:38.3795132+02:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2021-01-13T16:22:38.3795160+02:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2021-01-13T16:22:38.3795176+02:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2021-01-13T16:22:38.3795193+02:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2021-01-13T16:22:38.3795282+02:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2021-01-13T16:22:38.3795340+02:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2021-01-13T16:22:38.3812724+02:00:Thread#0: Test #5/0 is finished on thread #0 as Failed within 0.1006232 seconds
+2021-01-13T16:22:38.3821382+02:00:Thread#0: Test #5/1 is started on thread #0
+2021-01-13T16:22:38.3832048+02:00:2021-01-13T16:22:38.3827472+02:00:Thread#0:B:Given add new 'book' to library
+2021-01-13T16:22:38.3840386+02:00:2021-01-13T16:22:38.3836497+02:00:Thread#0:B:  --- table step argument ---
+2021-01-13T16:22:38.3846934+02:00:2021-01-13T16:22:38.3843693+02:00:Thread#0:B:  | Author | BookName |
+2021-01-13T16:22:38.3853600+02:00:2021-01-13T16:22:38.3849998+02:00:Thread#0:B:  | Tim    | test     |
+2021-01-13T16:22:38.4380982+02:00:2021-01-13T16:22:38.4376188+02:00:Thread#0:T:done: LibrarySteps.GivenAddNewBookToLibrary("book", <table>) (0.1s)
+2021-01-13T16:22:38.4388442+02:00:2021-01-13T16:22:38.4385186+02:00:Thread#0:B:When update last created 'book' info with following parameters
+2021-01-13T16:22:38.4394436+02:00:2021-01-13T16:22:38.4391042+02:00:Thread#0:B:  --- table step argument ---
+2021-01-13T16:22:38.4399251+02:00:2021-01-13T16:22:38.4396809+02:00:Thread#0:B:  | Author | BookName |
+2021-01-13T16:22:38.4405520+02:00:2021-01-13T16:22:38.4401920+02:00:Thread#0:B:  | Test   | TIm      |
+2021-01-13T16:22:38.4429278+02:00:2021-01-13T16:22:38.4425252+02:00:Thread#0:T:done: LibrarySteps.UpdateLastCreatedProduct("book", <table>) (0.0s)
+2021-01-13T16:22:38.4435766+02:00:2021-01-13T16:22:38.4432721+02:00:Thread#0:B:Then last created 'book' was updated with following parameters
+2021-01-13T16:22:38.4441105+02:00:2021-01-13T16:22:38.4438296+02:00:Thread#0:B:  --- table step argument ---
+2021-01-13T16:22:38.4445977+02:00:2021-01-13T16:22:38.4443452+02:00:Thread#0:B:  | Author | BookName |
+2021-01-13T16:22:38.4450773+02:00:2021-01-13T16:22:38.4448205+02:00:Thread#0:B:  | Test   | TIm      |
+2021-01-13T16:22:38.4465267+02:00:2021-01-13T16:22:38.4462606+02:00:Thread#0:T:error: Assert.AreEqual failed. Expected:<Library.Book>. Actual:<Library.Book>. 
+2021-01-13T16:22:38.4486436+02:00:Thread#0:Scheduler: get next test for thread 0
+2021-01-13T16:22:38.4486560+02:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+2021-01-13T16:22:38.4486594+02:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2021-01-13T16:22:38.4486795+02:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2021-01-13T16:22:38.4486830+02:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2021-01-13T16:22:38.4486853+02:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2021-01-13T16:22:38.4486878+02:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2021-01-13T16:22:38.4486987+02:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2021-01-13T16:22:38.4487071+02:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2021-01-13T16:22:38.4501149+02:00:Thread#0: Test #5/1 is finished on thread #0 as Failed within 0.0679517 seconds
+2021-01-13T16:22:38.4507499+02:00:Thread#0: Test #5/2 is started on thread #0
+2021-01-13T16:22:38.4519463+02:00:2021-01-13T16:22:38.4514501+02:00:Thread#0:B:Given add new 'book' to library
+2021-01-13T16:22:38.4527688+02:00:2021-01-13T16:22:38.4523869+02:00:Thread#0:B:  --- table step argument ---
+2021-01-13T16:22:38.4533503+02:00:2021-01-13T16:22:38.4530526+02:00:Thread#0:B:  | Author | BookName |
+2021-01-13T16:22:38.4539712+02:00:2021-01-13T16:22:38.4536120+02:00:Thread#0:B:  | Tim    | test     |
+2021-01-13T16:22:38.4594252+02:00:2021-01-13T16:22:38.4587980+02:00:Thread#0:T:done: LibrarySteps.GivenAddNewBookToLibrary("book", <table>) (0.0s)
+2021-01-13T16:22:38.4602085+02:00:2021-01-13T16:22:38.4598619+02:00:Thread#0:B:When update last created 'book' info with following parameters
+2021-01-13T16:22:38.4607734+02:00:2021-01-13T16:22:38.4604819+02:00:Thread#0:B:  --- table step argument ---
+2021-01-13T16:22:38.4613229+02:00:2021-01-13T16:22:38.4610428+02:00:Thread#0:B:  | Author | BookName |
+2021-01-13T16:22:38.4619182+02:00:2021-01-13T16:22:38.4615996+02:00:Thread#0:B:  | Test   | TIm      |
+2021-01-13T16:22:38.4642256+02:00:2021-01-13T16:22:38.4638339+02:00:Thread#0:T:done: LibrarySteps.UpdateLastCreatedProduct("book", <table>) (0.0s)
+2021-01-13T16:22:38.4649184+02:00:2021-01-13T16:22:38.4645875+02:00:Thread#0:B:Then last created 'book' was updated with following parameters
+2021-01-13T16:22:38.4654809+02:00:2021-01-13T16:22:38.4652009+02:00:Thread#0:B:  --- table step argument ---
+2021-01-13T16:22:38.4659341+02:00:2021-01-13T16:22:38.4657015+02:00:Thread#0:B:  | Author | BookName |
+2021-01-13T16:22:38.4663665+02:00:2021-01-13T16:22:38.4661401+02:00:Thread#0:B:  | Test   | TIm      |
+2021-01-13T16:22:38.4680324+02:00:2021-01-13T16:22:38.4676246+02:00:Thread#0:T:error: Assert.AreEqual failed. Expected:<Library.Book>. Actual:<Library.Book>. 
+2021-01-13T16:22:38.4701777+02:00:Thread#0:Scheduler: get next test for thread 0
+2021-01-13T16:22:38.4701917+02:00:Thread#:Scheduler: testitem #6 from normal test queue 
+2021-01-13T16:22:38.4701944+02:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-01-13T16:22:38.4702138+02:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-01-13T16:22:38.4702253+02:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-01-13T16:22:38.4702275+02:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+2021-01-13T16:22:38.4702296+02:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-01-13T16:22:38.4702399+02:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-01-13T16:22:38.4702461+02:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-01-13T16:22:38.4716739+02:00:Thread#0: Test #5/2 is finished on thread #0 as Failed within 0.0208803 seconds
+2021-01-13T16:22:38.4723614+02:00:Thread#0: Test #6/0 is started on thread #0
+2021-01-13T16:22:38.4749978+02:00:2021-01-13T16:22:38.4744054+02:00:Thread#0:B:Given add new 'book' to library
+2021-01-13T16:22:38.4757248+02:00:2021-01-13T16:22:38.4753638+02:00:Thread#0:B:  --- table step argument ---
+2021-01-13T16:22:38.4764072+02:00:2021-01-13T16:22:38.4760514+02:00:Thread#0:B:  | Author | BookName |
+2021-01-13T16:22:38.4770219+02:00:2021-01-13T16:22:38.4766615+02:00:Thread#0:B:  | Tim    | test     |
+2021-01-13T16:22:38.4811608+02:00:2021-01-13T16:22:38.4807579+02:00:Thread#0:T:done: LibrarySteps.GivenAddNewBookToLibrary("book", <table>) (0.0s)
+2021-01-13T16:22:38.4818233+02:00:2021-01-13T16:22:38.4815519+02:00:Thread#0:B:When delete last created 'book' info
+2021-01-13T16:22:38.4922869+02:00:2021-01-13T16:22:38.4917625+02:00:Thread#0:T:done: LibrarySteps.DeleteLastCreatedProduct("book") (0.0s)
+2021-01-13T16:22:38.4929667+02:00:2021-01-13T16:22:38.4926535+02:00:Thread#0:B:Then last created 'book' was deleted
+2021-01-13T16:22:38.7817375+02:00:2021-01-13T16:22:38.7812377+02:00:Thread#0:T:done: LibrarySteps.LastCreatedProductWasDeleted("book") (0.3s)
+2021-01-13T16:22:38.7836567+02:00:Thread#0:Scheduler: get next test for thread 0
+2021-01-13T16:22:38.7837002+02:00:Thread#:Scheduler: testitem #7 from normal test queue 
+2021-01-13T16:22:38.7837166+02:00:Thread#0:Scheduler: considering testitem #7 for thread 0
+2021-01-13T16:22:38.7837873+02:00:Thread#0:TestItem#7:testItemMatchesCurrentTestThread:UnSpecific
+2021-01-13T16:22:38.7837991+02:00:Thread#0:TestItem#7:runsOnOneOtherThreadSpecific:False
+2021-01-13T16:22:38.7838070+02:00:Thread#0:TestItem#7:runsOnOneOtherThreadUnspecific:False
+2021-01-13T16:22:38.7838205+02:00:Thread#0:Scheduler: using testitem #7 for thread 0
+2021-01-13T16:22:38.7838806+02:00:Thread#0:Scheduler: Test #7 is scheduled for thread
+2021-01-13T16:22:38.7839780+02:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-01-13T16:22:38.7876388+02:00:Thread#0: Test #6/0 is finished on thread #0 as Succeeded within 0.3152115 seconds
+2021-01-13T16:22:38.7887595+02:00:Thread#0: Test #7/0 is started on thread #0
+2021-01-13T16:22:38.7919675+02:00:2021-01-13T16:22:38.7912407+02:00:Thread#0:B:Given add new 'journal' to library
+2021-01-13T16:22:38.7928023+02:00:2021-01-13T16:22:38.7923653+02:00:Thread#0:B:  --- table step argument ---
+2021-01-13T16:22:38.7934936+02:00:2021-01-13T16:22:38.7931043+02:00:Thread#0:B:  | Author | JournalName |
+2021-01-13T16:22:38.7942512+02:00:2021-01-13T16:22:38.7938657+02:00:Thread#0:B:  | Tim    | test1       |
+2021-01-13T16:22:38.8185917+02:00:2021-01-13T16:22:38.8181130+02:00:Thread#0:T:done: LibrarySteps.GivenAddNewBookToLibrary("journal", <table>) (0.0s)
+2021-01-13T16:22:38.8193624+02:00:2021-01-13T16:22:38.8189965+02:00:Thread#0:B:Then verify that 'journal' was added
+2021-01-13T16:22:38.8205015+02:00:2021-01-13T16:22:38.8201752+02:00:Thread#0:T:done: LibrarySteps.ThenVerifyThatBookWasAdded("journal") (0.0s)
+2021-01-13T16:22:38.8220501+02:00:Thread#0:Scheduler: get next test for thread 0
+2021-01-13T16:22:38.8220720+02:00:Thread#:Scheduler: at the end of normal test queue
+2021-01-13T16:22:38.8220766+02:00:Thread#0:Scheduler: enumerator for thread is at end
+2021-01-13T16:22:38.8220797+02:00:Thread#0:Scheduler: No more tests for thread
+2021-01-13T16:22:38.8260299+02:00:Thread#0: Test #7/0 is finished on thread #0 as Succeeded within 0.0371872 seconds
+2021-01-13T16:22:38.8336391+02:00:2021-01-13T16:22:38.8332134+02:00:Got Deinitialize Signal
+2021-01-13T16:22:38.8382759+02:00:RPC Client disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Stream has been disposed
+Exception:<none>
+2021-01-13T16:22:38.8385685+02:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2021-01-13T16:22:38.8407365+02:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2021-01-13T16:22:38.8437505+02:00:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.2.0, Culture=en-US, PublicKeyToken=b03f5f7f11d50a3a
+2021-01-13T16:22:38.8437726+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' from .deps.json file
+2021-01-13T16:22:38.8437777+02:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' from .deps.json
+2021-01-13T16:22:38.8437843+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1'
+2021-01-13T16:22:38.8437879+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\System.Diagnostics.Process.resources.dll'
+2021-01-13T16:22:38.8438221+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\System.Diagnostics.Process.resources.exe'
+2021-01-13T16:22:38.8438481+02:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1'
+2021-01-13T16:22:38.8438551+02:00:TargetFramework: .NETCoreApp,Version=v3.1
+2021-01-13T16:22:38.8439359+02:00:Tfm: netcoreapp3.1
+2021-01-13T16:22:38.8439409+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-01-13T16:22:38.8439432+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\System.Diagnostics.Process.resources.dll'
+2021-01-13T16:22:38.8439879+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\System.Diagnostics.Process.resources.exe'
+2021-01-13T16:22:38.8440245+02:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\BookLibraryTestProject\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-01-13T16:22:38.8549038+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.10'
+2021-01-13T16:22:38.8549158+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.10\System.Diagnostics.Process.resources.dll'
+2021-01-13T16:22:38.8549677+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.10\System.Diagnostics.Process.resources.exe'
+2021-01-13T16:22:38.8549981+02:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.10'
+2021-01-13T16:22:38.8551397+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.10'
+2021-01-13T16:22:38.8551465+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.10\System.Diagnostics.Process.resources.dll'
+2021-01-13T16:22:38.8551807+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.10\System.Diagnostics.Process.resources.exe'
+2021-01-13T16:22:38.8552068+02:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.10'
+2021-01-13T16:22:38.8553350+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.10'
+2021-01-13T16:22:38.8553406+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.10\System.Diagnostics.Process.resources.dll'
+2021-01-13T16:22:38.8553889+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.10\System.Diagnostics.Process.resources.exe'
+2021-01-13T16:22:38.8554267+02:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.10'
+2021-01-13T16:22:38.8563874+02:00:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.2.0, Culture=en, PublicKeyToken=b03f5f7f11d50a3a
+2021-01-13T16:22:38.8669574+02:00:Thread#-1:Scheduler: get next test for thread -1
+2021-01-13T16:22:38.8669966+02:00:Thread#:Scheduler: at the end of normal test queue
+2021-01-13T16:22:38.8670007+02:00:Thread#-1:Scheduler: enumerator for thread is at end
+2021-01-13T16:22:38.8737205+02:00;Thread#12;Info;test run finished
+2021-01-13T16:22:38.8745364+02:00;Thread#12;Info;publishing test results
+2021-01-13T16:22:38.8751615+02:00;Thread#12;Info;Not publishing results.
+2021-01-13T16:22:38.8754179+02:00;Thread#12;Info;test results published
+2021-01-13T16:22:38.8755552+02:00;Thread#12;Info;generating reports
+2021-01-13T16:22:38.9888300+02:00;Thread#12;Info;Starting external report generation process
+2021-01-13T16:22:50.8433096+02:00;Thread#12;Info;Successfully generated reports.
+2021-01-13T16:22:50.8476128+02:00;Thread#12;Info;Successfully generated reports
+2021-01-13T16:22:50.8571080+02:00:Total: 4 (test executions: 6)
+2021-01-13T16:22:50.8617803+02:00:Succeeded: 3
+2021-01-13T16:22:50.8621747+02:00:Ignored: 0
+2021-01-13T16:22:50.8624995+02:00:Pending: 0
+2021-01-13T16:22:50.8625081+02:00:Skipped: 0
+2021-01-13T16:22:50.8628095+02:00:Failed: 1
+2021-01-13T16:22:50.8704992+02:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2021-01-13T16:22:50.8706068+02:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\tmoiseev\source\repos\BookLibraryTestProject\TestResults\Unnamed project__2021-01-13T162231.html'
+========== End of log file ==========
